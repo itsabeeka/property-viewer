@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PropertyWindowController
+comment0.text=\r\n\ This\ class\ is\ the\ controller\ of\ the\ 'propertyWindow.fxml'\ file.\r\n\ It's\ used\ to\ display\ the\ name,\ host\ name,\ room\ type,\ price,\ minimum\ nights,\r\n\ number\ of\ reviews,\ last\ review,\ reviews\ per\ month,\ and\ availability\ of\ the\ listing.\r\n\ It\ also\ has\ the\ functionality\ which\ allows\ the\ user\ to\ click\ 'Add\ to\ favourites'\r\n\ which\ this\ listing\ to\ the\ favourites\ list.\ (Which\ will\ be\ used\ in\ the\ favourites\ panel)\r\n\r\n\ @author\ Areeba\ Safdar(k20045738)\ Imaan\ Ghafur(k2102260)\r\n\ Sabeeka\ Ahmad(k20012890)\ Zahra\ Amaan(k21011879)\r\n\ @version\ 03/2022\r\n
+comment1.params=property
+comment1.target=PropertyWindowController(AirbnbListing)
+comment1.text=\r\n\ Stores\ the\ property\ given\ in\ 'listing'\r\n\ @param\ property\r\n
+comment2.params=
+comment2.target=void\ initialize()
+comment2.text=\r\n\ Adds\ the\ listing\ data\ to\ the\ 'propertyInfo'\ listView,\ which\r\n\ is\ displayed\ in\ the\ 'propertyWindow.fxml'\ window\r\n
+comment3.params=event
+comment3.target=void\ addToFavourites(javafx.event.Event)
+comment3.text=\r\n\ The\ event\ handler\ for\ when\ the\ 'Add\ to\ Favourites'\ button\r\n\ is\ clicked.\r\n\ addFavProperty()\ is\ called\ on\ the\ mapStatistics\ object\ and\ if\ true\ is\ returned\r\n\ an\ information\ dialog\ is\ displayed,\ which\ tells\ the\ user\ the\ property\ has\ been\ added.\r\n\ Otherwise,\ the\ user\ is\ told\ they\ already\ have\ this\ property\ in\ their\ favourites\ list\r\n\ via\ a\ warning\ alert\ box.\r\n\ @param\ event\ the\ event\ object\ generated\r\n
+comment4.params=event
+comment4.target=void\ closeStage(javafx.event.Event)
+comment4.text=\r\n\ Method\ is\ called\ when\ the\ user\ presses\ the\ done\ button.\r\n\ If\ retrieves\ the\ stage\ from\ which\ the\ action\ occurred\ and\ closes\ the\ current\r\n\ stage.\r\n\ @param\ event\ the\ event\ object\ generated\ from\ the\ onAction\ event\r\n
+numComments=5
